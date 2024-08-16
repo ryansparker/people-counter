@@ -1,3 +1,7 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #f2f8f7;
+}
 /* Typography */
 h2 {
     font-size: 50px;
@@ -16,33 +20,46 @@ h2 {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: #08645e;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	align-items: center;
+	color: white;
 }
 
 /* Buttons */
 button {
     border: none;
-    border-radius: 5px;
+
     color: white;
     font-weight: bold;
     padding: 10px 0;
     width: 200px;
     margin-bottom: 5px;
+	background-color: #d9ffed;
+	color:#08645e;
+	border-radius: 50px;
+	margin: .5em;
+	transform: scale(1.05);
+	transition: background-color .2s, background-position .2s, color .2s, border .2s, box-shadow .2s;
 }
-
-
-#btn-increase {
-    background-color: darkred;
-}
-
-#btn-decrease {
-    background-color: rgb(0, 23, 139);
-}
-
 
 #btn-save {
-    background-color: darkgreen;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+
 }
+button:hover {
+ color: #fff;
+ background-color: #00be9c;
+ border-color: #00be9c;
+ box-shadow: 0 8px 16px 4px #0000004d;
+}
+
+#btn-save:hover {
+	background-color: #00be9c;
+}
+
+
+

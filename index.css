@@ -1,0 +1,47 @@
+/* Typography */
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+
+#btn-increase {
+    background-color: darkred;
+}
+
+#btn-decrease {
+    background-color: rgb(0, 23, 139);
+}
+
+
+#btn-save {
+    background-color: darkgreen;
+}
